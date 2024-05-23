@@ -1,0 +1,18 @@
+[build-system]
+requires = [ "poetry-core",]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "renamr"
+version = "0.1.0"
+description = "A bulk rename utility written in Python"
+authors = [ "Joshua Cotugno <jxctno@gmail.com>",]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pygobject = "^3.48.2"
+python-dateutil = "^2.9.0.post0"
+send2trash = "^1.8.3"
+
